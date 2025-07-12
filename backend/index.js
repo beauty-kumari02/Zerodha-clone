@@ -274,7 +274,7 @@ const url=process.env.MONGO_URL ||3002;
 
 
 
-app.listen(3002,()=>{
+app.listen(port,()=>{
     console.log("app started");
     mongoose.connect(url);
     console.log("DB started")
