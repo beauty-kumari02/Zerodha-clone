@@ -1,0 +1,26 @@
+.order-table {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.order-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order-table th,
+.order-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.buy-row td {
+  color: #1abc9c;
+  font-weight: 500;
+}
+
+.sell-row td {
+  color: #e74c3c;
+  font-weight: 500;
+}
